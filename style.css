@@ -64,13 +64,9 @@ section {
     height: 380px;
     margin: 10px auto;
     text-align: center;
-    transition: transform 1s;
+    transition: transform 1s; /*翻转速度*/
     transform-style: preserve-3d;
 }
-
-/* section:hover {
-    transform: rotateY(180deg);
-} */
 
 section div {
     position: absolute;
